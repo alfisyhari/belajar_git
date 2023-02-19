@@ -9,3 +9,5 @@ git push origin master > mengirim hasil dari perubahan file yang dilakukan ke da
 git pull > menarik atau mengambil source code dari repository server
 git add -A > menambahkan file ke dalam direktori
 git commit -m "pesan" > cuplikan perubahan dari repository kita pada waktu tertentu
+git reset > mengatur ulang atau mengembalikan suatu kondisi berkas ke commit yang dituju dan menghapus riwayat sesudahnya (harap dipertimbangkan untuk menggunakan perintah ini dikarenakan jika sekali melakukannya, kita tidak akan bisa kembali ke masa depan sehingga perlu pertimbangan yang matang saat menggunakannya).
+git revert > perintah ini akan mengembalikan kondisi suatu berkas ke waktu/commit yang dituju tanpa menghapus catatan riwayat commit, membuat commit terbaru dengan commit yang dituju sehingga riwayat commit diantaranya tidak terhapus, git revert akan mengambil kondisi berkas yang ada di masa lalu, kemudian menggabungkannya dengan commit terakhir.
