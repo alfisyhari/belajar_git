@@ -12,4 +12,5 @@ git commit -m "pesan" > cuplikan perubahan dari repository kita pada waktu terte
 git reset > mengatur ulang atau mengembalikan suatu kondisi berkas ke commit yang dituju dan menghapus riwayat sesudahnya (harap dipertimbangkan untuk menggunakan perintah ini dikarenakan jika sekali melakukannya, kita tidak akan bisa kembali ke masa depan sehingga perlu pertimbangan yang matang saat menggunakannya).
 git revert > perintah ini akan mengembalikan kondisi suatu berkas ke waktu/commit yang dituju tanpa menghapus catatan riwayat commit, membuat commit terbaru dengan commit yang dituju sehingga riwayat commit diantaranya tidak terhapus, git revert akan mengambil kondisi berkas yang ada di masa lalu, kemudian menggabungkannya dengan commit terakhir.
 git log > menampilkan history perintah yang sudah dikerjakan sebelumnya
+git diff > menampilkan perubahan dari setiap isi code
 .gitignore > semua file yang ditentukan misalnya .log maka file yang berakhiran .log akan dihiraukan oleh git (atau tidak di perlu masuk ke dalam track)
