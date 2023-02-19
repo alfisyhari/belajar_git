@@ -1,5 +1,11 @@
-git init > membuat repository di file lokal
+git init > membuat repository git di file lokal
 git status > menampilkan status dari sebuah repository lokal
 git branch > membuat cabang baru
 git checkout > berpindah ke cabang lain
 git merge > menggabungkan 2 cabang atau lebih
+git fork > membuat salinan dari repository orang/organisasi lain, lalu menyimpan di dalam repository sendiri
+git clone > mengambil sebuah repository dan menyimpan di direktori lokal
+git push origin master > mengirim hasil dari perubahan file yang dilakukan ke dalam repository server
+git pull > menarik atau mengambil source code dari repository server
+git add -A > menambahkan file ke dalam direktori
+git commit -m "pesan" > cuplikan perubahan dari repository kita pada waktu tertentu
