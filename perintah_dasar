@@ -1,7 +1,7 @@
 git init > membuat repository git di file lokal
 git status > menampilkan status dari sebuah repository lokal
 git branch > membuat cabang baru
-git checkout > berpindah ke cabang lain
+git checkout > berpindah ke cabang lain atau berpindah ke commit lain
 git merge > menggabungkan 2 cabang atau lebih
 git fork > membuat salinan dari repository orang/organisasi lain, lalu menyimpan di dalam repository sendiri
 git clone > mengambil sebuah repository dan menyimpan di direktori lokal
